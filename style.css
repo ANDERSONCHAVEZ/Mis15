@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.fondo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: filter 1s ease, opacity 6s ease-in-out;
+    opacity: 0;
+}
+
+.fondo2 {
+    width: 100vw;
+    height: 100vh;
+    transform: scale(1.2);
+    transform-origin: 50% 100%;
+}
+
+#fondo {
+    background-image: url(images/fondo.png);
+
+}
+
+.fondo-visible {
+    opacity: 1;
+}
+
+.zoom-activo {
+    animation: zoom-fondo 25s 3s ease forwards;
+}
+
+
+@keyframes zoom-fondo {
+    0% {
+        transform: scale(1.2);
+        transform-origin: 50% 100%;
+    }
+
+
+    60% {
+        transform: scale(5);
+        transform-origin: 50% 65%;
+        
+    }
+
+
+
+    100%{
+        transform: scale(15.5);
+        transform-origin: 50% 64%;
+    }
+}
+
+@keyframes zoom2 {
+    0%{
+        transform: scale(6);
+    }
+}
+
+.start {
+    position: absolute;
+    top: 50vh;
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.particula-humo {
+    overflow: hidden;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 192, 203, 0.85);
+    border-radius: 50%;
+    opacity: 0;
+    animation: dispersar 5.5s ease-out forwards;
+}
+
+@keyframes dispersar {
+    0% {
+        transform: translate(-5px, -5px) scale(0);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translate(calc(var(--dx) * 50px), calc(var(--dy) * 50px)) scale(3);
+        opacity: 0;
+    }
+}
+
+.fondo-distorsion {
+    filter: blur(10px) ;
+}
+
+#video-fondo{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0;
+}
+
+.boton-mapa{
+    position: absolute;
+    display: none;
+    top:80%;
+    left: 26.5%;
+    width: 150px;
+    height: 30px;
+    z-index: 2;
+}
+
+.boton-ws1{
+    position: absolute;
+    display: none;
+    top: 66%;
+    left: 30%;
+    width: 125px;
+    height: 30px;
+    z-index: 2;
+}
+
+.boton-ws2{
+    position: absolute;
+    display: none;
+    top: 84%;
+    left: 25.5%;
+    width: 60px;
+    height: 30px;
+    z-index: 2;
+}
+
+.boton-ws3{
+    position: absolute;
+    display: none;
+    top: 84%;
+    left: 55.5%;
+    width: 60px;
+    height: 30px;
+    z-index: 2;
+}
