@@ -86,7 +86,7 @@ body {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: rgba(255, 192, 203, 0.85);
+    background-color: #ffc0cbd9;
     border-radius: 50%;
     opacity: 0;
     animation: dispersar 5.5s ease-out forwards;
