@@ -54,7 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
         fondo.classList.remove('fondo-visible');
         fondo2.classList.add('fondo-visible');
         boton.style.display = 'none';
-
+        const elem = document.documentElement;
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { // Safari
+            elem.webkitRequestFullscreen();
+        }
         setTimeout(() => {
             fondo.classList.remove('fondo-distorsion');
         }, 1500);

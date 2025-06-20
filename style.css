@@ -123,6 +123,7 @@ body {
 
 .boton-mapa{
     position: absolute;
+    background-color: aqua;
     display: none;
     top:80%;
     left: 26.5%;
@@ -133,6 +134,7 @@ body {
 
 .boton-ws1{
     position: absolute;
+    background-color: aqua;
     display: none;
     top: 66%;
     left: 30%;
@@ -143,6 +145,7 @@ body {
 
 .boton-ws2{
     position: absolute;
+    background-color: aqua;
     display: none;
     top: 84%;
     left: 25.5%;
@@ -153,6 +156,7 @@ body {
 
 .boton-ws3{
     position: absolute;
+    background-color: aqua;
     display: none;
     top: 84%;
     left: 55.5%;
