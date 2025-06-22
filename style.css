@@ -125,42 +125,43 @@ body {
     position: absolute;
     background-color: aqua;
     display: none;
-    top:80%;
-    left: 26.5%;
+    top:75%;
+    left: 50%;
+    transform: translate(-50%,-60%);
     width: 150px;
-    height: 30px;
+    height: 50px;
     z-index: 2;
 }
 
-.boton-ws1{
+.boton-confirm{
     position: absolute;
     background-color: aqua;
     display: none;
-    top: 66%;
-    left: 30%;
+    top: 66.7%;
+    left: 42%;
+    transform: translate(-30%,-66%);
     width: 125px;
-    height: 30px;
+    height: 50px;
     z-index: 2;
 }
 
-.boton-ws2{
+#nombre-invitado{
     position: absolute;
-    background-color: aqua;
-    display: none;
-    top: 84%;
-    left: 25.5%;
-    width: 60px;
-    height: 30px;
-    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #ffd700;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    z-index: 10;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1.5s ease-in-out, visibility 1s ease-in-out;
 }
 
-.boton-ws3{
-    position: absolute;
-    background-color: aqua;
-    display: none;
-    top: 84%;
-    left: 55.5%;
-    width: 60px;
-    height: 30px;
-    z-index: 2;
+#nombre-invitado.visible{
+    opacity: 1;
+    visibility: visible;
 }
