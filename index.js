@@ -350,7 +350,7 @@ const invitados = {
 const datos = invitados[id];
 
 if(datos) {
-    document.getElementById('nombre-invitado').textContent = datos.nombre;
+    document.getElementById('nombre-invitado').innerText = datos.nombre;
 
     const boton = document.getElementById('boton2');
     if(datos.acompañante) {
