@@ -71,10 +71,10 @@ body {
 
 .start {
     position: absolute;
-    top: 50vh;
+    top: 35vh;
     margin: auto;
     width: 100%;
-    height: 150px;
+    height: 350px;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -128,8 +128,8 @@ body {
     top:75%;
     left: 50%;
     transform: translate(-50%,-60%);
-    width: 150px;
-    height: 50px;
+    width: 250px;
+    height: 100px;
     z-index: 2;
 }
 
@@ -137,11 +137,11 @@ body {
     position: absolute;
     background-color: aqua;
     display: none;
-    top: 66.7%;
-    left: 42%;
+    top: 70%;
+    left: 35%;
     transform: translate(-30%,-66%);
-    width: 125px;
-    height: 50px;
+    width: 225px;
+    height: 100px;
     z-index: 2;
 }
 
