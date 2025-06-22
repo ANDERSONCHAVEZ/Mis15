@@ -125,11 +125,11 @@ body {
     position: absolute;
     background-color: aqua;
     display: none;
-    top:70%;
+    top:60%;
     left: 45%;
     transform: translate(-50%,-60%);
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
     z-index: 2;
 }
 
@@ -138,10 +138,10 @@ body {
     background-color: aqua;
     display: none;
     top: 60%;
-    left: 45%;
+    left: 60%;
     transform: translate(-30%,-66%);
-    width: 355px;
-    height: 150px;
+    width: 40px;
+    height: 200px;
     z-index: 2;
 }
 
