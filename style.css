@@ -125,7 +125,7 @@ body {
     position: absolute;
     background-color: aqua;
     display: none;
-    top:60%;
+    top:70%;
     left: 45%;
     transform: translate(-50%,-60%);
     width: 400px;
@@ -140,7 +140,7 @@ body {
     top: 60%;
     left: 60%;
     transform: translate(-30%,-66%);
-    width: 40px;
+    width: 400px;
     height: 200px;
     z-index: 2;
 }
