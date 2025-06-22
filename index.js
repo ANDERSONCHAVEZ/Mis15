@@ -31,6 +31,214 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    const invitados = {
+
+        connie: {
+            nombre: "Connie",
+            acompañante: true,
+        },
+
+        omara: {
+            nombre: "Omara",
+            acompañante: false,
+        },
+
+        alexandra: {
+            nombre: "Alexandra",
+            acompañante: true,
+        },
+
+        adriana: {
+            nombre: "Adriana",
+            acompañante: true,
+        },
+
+        belen: {
+            nombre: "Belen",
+            acompañante: false,
+        },
+
+        maria: {
+            nombre: "Maria",
+            acompañante: false,
+        },
+
+        flavia: {
+            nombre: "Flavia",
+            acompañante: false,
+        },
+
+        elkin: {
+            nombre: "Elkin",
+            acompañante: false,
+        },
+
+        josue: {
+            nombre: "Josue",
+            acompañante: false,
+        },
+
+        haroltd: {
+            nombre: "Haroltd",
+            acompañante: false,
+        },
+
+        sharukh: {
+            nombre: "Sharukh",
+            acompañante: true,
+        },
+
+        sergio: {
+            nombre: "Sergio",
+            acompañante: false,
+        },
+
+        sebastian: {
+            nombre: "Sebastian",
+            acompañante: false,
+        },
+
+        ezequiel: {
+            nombre: "Ezequiel",
+            acompañante: false,
+        },
+
+        danilo: {
+            nombre: "Danilo",
+            acompañante: false,
+        },
+
+        facundo: {
+            nombre: "Facundo",
+            acompañante: false,
+        },
+
+        dylan: {
+            nombre: "Dylan",
+            acompañante: false,
+        },
+
+        jhon: {
+            nombre: "Jhon",
+            acompañante: false,
+        },
+
+        flavia2: {
+            nombre: "Flavia",
+            acompañante: true,
+        },
+
+        micaela: {
+            nombre: "Micaela",
+            acompañante: false,
+        },
+
+        ashley: {
+            nombre: "Ashley",
+            acompañante: false,
+        },
+
+        leo: {
+            nombre: "Leo",
+            acompañante: true,
+        },
+
+        edinson: {
+            nombre: "Edinson",
+            acompañante: true,
+        },
+
+        mis_maria: {
+            nombre: "Mis Maria",
+            acompañante: true,
+        },
+
+        mis_miriam: {
+            nombre: "Mis Miriam",
+            acompañante: false,
+        },
+
+        mis_liz: {
+            nombre: "Mis Liz",
+            acompañante: true,
+        },
+
+        mis_ursula: {
+            nombre: "Mis Ursula",
+            acompañante: true,
+        },
+
+        mis_doris: {
+            nombre: "Mis Doris",
+            acompañante: false,
+        },
+
+        tia_estefani: {
+            nombre: "Tía Estefani",
+            acompañante: true,
+        },
+
+        tia_elsa: {
+            nombre: "Tía Elsa",
+            acompañante: true,
+        },
+
+        frank: {
+            nombre: "Frank",
+            acompañante: true,
+        },
+
+        tio_orzon: {
+            nombre: "Tío Orzon",
+            acompañante: false,
+        },
+
+        tio_james: {
+            nombre: "Tío James",
+            acompañante: false,
+        },
+
+        tio_deivis: {
+            nombre: "Tío Deivis",
+            acompañante: true,
+        },
+
+        mamita_dela: {
+            nombre: "Mamita Dela",
+            acompañante: false,
+        },
+
+        papito_sixto: {
+            nombre: "Papito Sixto",
+            acompañante: false,
+        },
+
+        tia_yesenia: {
+            nombre: "Tía Yesenia",
+            acompañante: true,
+        },
+
+        yomira: {
+            nombre: "Yomira",
+            acompañante: true,
+        },
+
+    };
+
+    const datos = invitados[id];
+
+    if (datos) {
+        document.getElementById('nombre-invitado').innerText = datos.nombre;
+
+        const boton = document.getElementById('boton2');
+        if (datos.acompañante) {
+            boton.href = "https://forms.gle/mko7TKSt2t3A8Wxb7";
+        } else {
+            boton.href = "https://forms.gle/s9BpnmmQKSxAVZoJ8";
+        }
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -85,12 +293,12 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             video.addEventListener('timeupdate', () => {
 
-                if(!mostrado3 && video.currentTime >= 15){
+                if (!mostrado3 && video.currentTime >= 15) {
                     invitado.classList.add("visible");
                     mostrado3 = true;
                 }
 
-                if(mostrado3 && video.currentTime >= 19){
+                if (mostrado3 && video.currentTime >= 19) {
                     invitado.classList.remove("visible");
                     mostrado3 = false;
                 }
@@ -151,211 +359,3 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-const params = new URLSearchParams(window.location.search);
-const id = params.get('id');
-const invitados = {
-
-    connie: {
-        nombre: "Connie",
-        acompañante: true,
-    },
-
-    omara:{
-        nombre: "Omara",
-        acompañante: false,
-    },
-
-    alexandra:{
-        nombre: "Alexandra",
-        acompañante: true,
-    },
-
-    adriana:{
-        nombre: "Adriana",
-        acompañante: true,
-    },
-
-    belen:{
-        nombre: "Belen",
-        acompañante: false,
-    },
-
-    maria:{
-        nombre: "Maria",
-        acompañante: false,
-    },
-
-    flavia:{
-        nombre: "Flavia",
-        acompañante: false,
-    },
-
-    elkin:{
-        nombre: "Elkin",
-        acompañante: false,
-    },
-
-    josue:{
-        nombre: "Josue",
-        acompañante: false,
-    },
-
-    haroltd:{
-        nombre: "Haroltd",
-        acompañante: false,
-    },
-
-    sharukh:{
-        nombre: "Sharukh",
-        acompañante: true,
-    },
-
-    sergio:{
-        nombre: "Sergio",
-        acompañante: false,
-    },
-
-    sebastian:{
-        nombre: "Sebastian",
-        acompañante: false,
-    },
-
-    ezequiel:{
-        nombre: "Ezequiel",
-        acompañante: false,
-    },
-
-    danilo:{
-        nombre: "Danilo",
-        acompañante: false,
-    },
-
-    facundo:{
-        nombre: "Facundo",
-        acompañante: false,
-    },
-
-    dylan:{
-        nombre: "Dylan",
-        acompañante: false,
-    },
-
-    jhon:{
-        nombre: "Jhon",
-        acompañante: false,
-    },
-
-    flavia2:{
-        nombre: "Flavia",
-        acompañante: true,
-    },
-
-    micaela:{
-        nombre: "Micaela",
-        acompañante: false,
-    },
-
-    ashley:{
-        nombre: "Ashley",
-        acompañante: false,
-    },
-
-    leo:{
-        nombre: "Leo",
-        acompañante: true,
-    },
-
-    edinson:{
-        nombre: "Edinson",
-        acompañante: true,
-    },
-
-    mis_maria:{
-        nombre: "Mis Maria",
-        acompañante: true,
-    },
-
-    mis_miriam:{
-        nombre: "Mis Miriam",
-        acompañante: false,
-    },
-
-    mis_liz:{
-        nombre: "Mis Liz",
-        acompañante: true,
-    },
-
-    mis_ursula:{
-        nombre: "Mis Ursula",
-        acompañante: true,
-    },
-
-    mis_doris:{
-        nombre: "Mis Doris",
-        acompañante: false,
-    },
-
-    tia_estefani:{
-        nombre: "Tía Estefani",
-        acompañante: true,
-    },
-
-    tia_elsa:{
-        nombre: "Tía Elsa",
-        acompañante: true,
-    },
-
-    frank:{
-        nombre: "Frank",
-        acompañante: true,
-    },
-
-    tio_orzon:{
-        nombre: "Tío Orzon",
-        acompañante: false,
-    },
-
-    tio_james:{
-        nombre: "Tío James",
-        acompañante: false,
-    },
-
-    tio_deivis:{
-        nombre: "Tío Deivis",
-        acompañante: true,
-    },
-
-    mamita_dela:{
-        nombre: "Mamita Dela",
-        acompañante: false,
-    },
-
-    papito_sixto:{
-        nombre: "Papito Sixto",
-        acompañante: false,
-    },
-
-    tia_yesenia:{
-        nombre: "Tía Yesenia",
-        acompañante: true,
-    },
-
-    yomira:{
-        nombre: "Yomira",
-        acompañante: true,
-    },
-
-};
-
-const datos = invitados[id];
-
-if(datos) {
-    document.getElementById('nombre-invitado').innerText = datos.nombre;
-
-    const boton = document.getElementById('boton2');
-    if(datos.acompañante) {
-        boton.href= "https://forms.gle/mko7TKSt2t3A8Wxb7";
-    } else {
-        boton.href = "https://forms.gle/s9BpnmmQKSxAVZoJ8";
-    }
-}
