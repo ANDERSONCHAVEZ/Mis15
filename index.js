@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         connie: {
             nombre: "Connie",
-            acompañante: true,
+            acompañante: false,
         },
 
         omara: {
@@ -50,18 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: true,
         },
 
-        adriana: {
-            nombre: "Adriana",
-            acompañante: true,
-        },
-
         belen: {
             nombre: "Belen",
-            acompañante: false,
-        },
-
-        maria: {
-            nombre: "Maria",
             acompañante: false,
         },
 
@@ -82,6 +72,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         haroltd: {
             nombre: "Haroltd",
+            acompañante: false,
+        },
+
+        estrella: {
+            nombre: "Estrella",
             acompañante: false,
         },
 
@@ -120,8 +115,8 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: false,
         },
 
-        jhon: {
-            nombre: "Jhon",
+        cristian: {
+            nombre: "Cristian",
             acompañante: false,
         },
 
@@ -130,8 +125,8 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: true,
         },
 
-        micaela: {
-            nombre: "Micaela",
+        madison: {
+            nombre: "Madison",
             acompañante: false,
         },
 
@@ -142,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         leo: {
             nombre: "Leo",
-            acompañante: true,
+            acompañante: false,
         },
 
         edinson: {
@@ -167,12 +162,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         mis_ursula: {
             nombre: "Mis Ursula",
-            acompañante: true,
+            acompañante: false,
         },
 
         mis_doris: {
             nombre: "Mis Doris",
             acompañante: false,
+        },
+
+        aitana: {
+            nombre: "Aitana",
+            acompañante: true,
         },
 
         tia_estefani: {
@@ -187,11 +187,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         frank: {
             nombre: "Frank",
-            acompañante: true,
+            acompañante: false,
         },
 
-        tio_orzon: {
-            nombre: "Tío Orzon",
+        tio_orson: {
+            nombre: "Tío Orson",
             acompañante: false,
         },
 
@@ -202,11 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         tio_deivis: {
             nombre: "Tío Deivis",
-            acompañante: true,
+            acompañante: false,
         },
 
-        mamita_dela: {
-            nombre: "Mamita Dela",
+        mamita_adela: {
+            nombre: "Mamita Adela",
             acompañante: false,
         },
 
@@ -225,6 +225,35 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: true,
         },
 
+        tio_pedro: {
+            nombre: "Tío Pedro",
+            acompañante: false,
+        },
+
+        tia_kelli: {
+            nombre: "Tía Kelli",
+            acompañante: true,
+        },
+
+        sumi: {
+            nombre: "Sumi",
+            acompañante: false,
+        },
+
+        sayuri: {
+            nombre: "Sayuri",
+            acompañante: false,
+        },
+
+        papito_guillermo: {
+            nombre: "Papito Guillermo",
+            acompañante: false,
+        },
+
+        tia_gaby: {
+            nombre: "Tía Gaby",
+            acompañante: true,
+        }
     };
 
     const datos = invitados[id];
