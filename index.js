@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         lincol: {
-            nombre: "Liconl y familia",
+            nombre: "Lincol y familia",
             acompañante: false,
         },
 
