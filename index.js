@@ -250,9 +250,34 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: false,
         },
 
-        tia_gaby: {
-            nombre: "Tía Gaby",
-            acompañante: true,
+        fredi: {
+            nombre: "Fredi y familia",
+            acompañante: false,
+        },
+
+        doris: {
+            nombre: "Doris y familia",
+            acompañante: false,
+        },
+
+        rusmel: {
+            nombre: "Rusmel y familia",
+            acompañante: false,
+        },
+
+        lincol: {
+            nombre: "Liconl y familia",
+            acompañante: false,
+        },
+
+        sandra: {
+            nombre: "Sandra y esposo",
+            acompañante: false,
+        },
+
+        maycol: {
+            nombre: "Maycol y familia",
+            acompañante: false,
         }
     };
 
