@@ -198,6 +198,11 @@ document.addEventListener('DOMContentLoaded', () => {
         jhon: {
             nombre: "Jhon",
             acompañante: false,
+        },
+
+        marco: {
+            nombre: "Marco",
+            acompañante: false,
         }
     };
 
