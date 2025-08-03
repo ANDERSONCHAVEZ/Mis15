@@ -145,46 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: true,
         },
 
-        mis_maria: {
-            nombre: "Mis Maria",
-            acompañante: true,
-        },
-
-        mis_miriam: {
-            nombre: "Mis Miriam",
-            acompañante: false,
-        },
-
-        mis_liz: {
-            nombre: "Mis Liz",
-            acompañante: true,
-        },
-
-        mis_ursula: {
-            nombre: "Mis Ursula",
-            acompañante: false,
-        },
-
-        mis_doris: {
-            nombre: "Mis Doris",
-            acompañante: false,
-        },
-
-        aitana: {
-            nombre: "Aitana",
-            acompañante: true,
-        },
-
-        tia_estefani: {
-            nombre: "Tía Estefani",
-            acompañante: true,
-        },
-
-        tia_elsa: {
-            nombre: "Tía Elsa",
-            acompañante: true,
-        },
-
         frank: {
             nombre: "Frank",
             acompañante: false,
@@ -200,38 +160,8 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: false,
         },
 
-        tio_deivis: {
-            nombre: "Tío Deivis",
-            acompañante: false,
-        },
-
-        mamita_adela: {
-            nombre: "Mamita Adela",
-            acompañante: false,
-        },
-
-        papito_sixto: {
-            nombre: "Papito Sixto",
-            acompañante: false,
-        },
-
-        tia_yesenia: {
-            nombre: "Tía Yesenia",
-            acompañante: true,
-        },
-
         yomira: {
             nombre: "Yomira",
-            acompañante: true,
-        },
-
-        tio_pedro: {
-            nombre: "Tío Pedro",
-            acompañante: false,
-        },
-
-        tia_kelli: {
-            nombre: "Tía Kelli",
             acompañante: true,
         },
 
@@ -245,38 +175,28 @@ document.addEventListener('DOMContentLoaded', () => {
             acompañante: false,
         },
 
-        papito_guillermo: {
-            nombre: "Papito Guillermo",
+        nicol: {
+            nombre: "Nicol",
             acompañante: false,
         },
 
-        fredi: {
-            nombre: "Fredi y familia",
+        maria: {
+            nombre: "Maria",
             acompañante: false,
         },
 
-        doris: {
-            nombre: "Doris y familia",
+        anderson: {
+            nombre: "Anderson",
             acompañante: false,
         },
 
-        rusmel: {
-            nombre: "Rusmel y familia",
+        adriana: {
+            nombre: "Adriana",
             acompañante: false,
         },
 
-        lincol: {
-            nombre: "Lincol y familia",
-            acompañante: false,
-        },
-
-        sandra: {
-            nombre: "Sandra y esposo",
-            acompañante: false,
-        },
-
-        maycol: {
-            nombre: "Maycol y familia",
+        jhon: {
+            nombre: "Jhon",
             acompañante: false,
         }
     };
